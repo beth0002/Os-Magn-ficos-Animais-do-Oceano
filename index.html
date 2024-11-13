@@ -30,10 +30,13 @@
             z-index: -1; /* Coloca a imagem atrás do conteúdo */
         }
         .image-container {
-            border: 2px solid #006064; /* Adiciona borda ao redor da imagem */
-            padding: 10px;
-            margin-bottom: 20px;
-            border-radius: 15px; /* Adiciona bordas arredondadas */
+            border: 2px solid #006064; /* Borda ao redor da imagem */
+            padding: 3px; /* Menor padding */
+            margin-bottom: 8px; /* Menor margem inferior */
+            border-radius: 15px; /* Borda arredondada */
+            display: inline-block; /* Para que o contêiner de imagem se ajuste ao tamanho da imagem */
+            max-width: 80%; /* Limita a largura do contêiner */
+            overflow: hidden; /* Esconde qualquer parte da imagem que ultrapasse o contêiner */
         }
         header {
             background-color: #004d40;
@@ -51,7 +54,7 @@
             color: #00796b;
         }
         img {
-            max-width: 100%;
+            max-width: 100%; /* Faz a imagem ocupar o máximo do espaço disponível no contêiner */
             height: auto;
             border-radius: 15px; /* Adiciona bordas arredondadas */
         }
@@ -114,7 +117,7 @@
         </main>
         <footer>
             <p>&copy; 2024 Oceano Encantado. Todos os direitos reservados.</p>
-            <p class="footer-info">Contato: info@oceanoencantado.com</p>
+            <p class="footer-info">Contato: elizabeth&leanderson@gmail.com</p>
             <p class="footer-info">Siga-nos nas redes sociais: 
                 <a href="https://facebook.com/oceanoencantado" target="_blank" style="color: white;">Facebook</a> | 
                 <a href="https://twitter.com/oceanoencantado" target="_blank" style="color: white;">Twitter</a> | 
