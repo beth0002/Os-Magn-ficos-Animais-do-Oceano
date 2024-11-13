@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="css/css.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceano Encantado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Canela&display=swap" rel="stylesheet"> <!-- Inclui a fonte Canela -->
+    <style class="header">
+        body {
+            position: relative;
+            font-family: 'Canela', serif;
+            font-size: 18px; /* Ajusta o tamanho da fonte */
+            background-color: #e0f7fa;
+            color: #006064;
+            margin: 0;
+            padding: 0;
+            font-weight: bold; /* Define a fonte em negrito */
+        }
+        body::before {
+            content: "";
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%;
+            height: 100%; 
+            background-image: url('Figuras/fundo.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+            background-size: cover; 
+            opacity: 0.1; /* Diminui mais a opacidade da imagem */ 
+            z-index: -1; /* Coloca a imagem atrás do conteúdo */
+        }
+        .image-container {
+            border: 2px solid #006064; /* Adiciona borda ao redor da imagem */
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 15px; /* Adiciona bordas arredondadas */
+        }
+        header {
+            background-color: #004d40;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        main {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h2 {
+            color: #00796b;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px; /* Adiciona bordas arredondadas */
+        }
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-family: 'Canela', serif;
+            font-size: 20px; /* Aumentando o tamanho da fonte */
+            font-weight: bold; /* Define a fonte em negrito */
+        }
+        .footer-info {
+            margin: 0.5em 0;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <header>
+            <h1>Os Magníficos Animais do Oceano 🌊</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Baleia Azul</h2>
+                <p><strong>Nome Científico:</strong> <em>Balaenoptera musculus</em></p>
+                <p><strong>Descrição:</strong> As baleias são enormes mamíferos marinhos conhecidos por sua inteligência e comunicação. Variando de tamanho, desempenham papéis cruciais nos ecossistemas, mas muitas espécies estão ameaçadas e necessitam de conservação.</p>
+                <p><strong>Habitat:</strong> As baleias vivem em todos os oceanos, migrando entre águas frias, onde se alimentam, e regiões mais quentes, onde se reproduzem e cuidam dos filhotes. Esses habitats diversos fornecem alimento variado, importante para a saúde dos ecossistemas marinhos.</p>
+                <p><strong>Dieta:</strong> As baleias de barbatanas alimentam-se de pequenos organismos como krill e plâncton, enquanto as baleias dentadas caçam presas maiores como peixes e lulas. Cada espécie adapta sua dieta ao seu nicho ecológico, ajudando a manter o equilíbrio marinho.</p>
+                <p><strong>Curiosidade:</strong> A baleia azul pode consumir até 4 toneladas de krill por dia durante a temporada de alimentação.</p>
+                <div class="image-container">
+                    <img src="Figuras/Baleia.webp" alt="Baleia Azul">
+                </div>
+            </section>
+            <section>
+                <h2>Tubarão Branco</h2>
+                <p><strong>Nome Científico:</strong> <em>Carcharodon carcharias</em></p>
+                <p><strong>Descrição:</strong> Conhecido por seu tamanho impressionante e dentes afiados, o tubarão branco é um dos predadores mais temidos do oceano. Eles podem detectar uma gota de sangue na água a mais de um quilômetro de distância.</p>
+                <p><strong>Habitat:</strong> Águas costeiras temperadas.</p>
+                <p><strong>Dieta:</strong> Peixes, focas e outros mamíferos marinhos.</p>
+                <p><strong>Curiosidade:</strong> Os tubarões brancos têm uma camada de tecido entre os olhos e a boca que lhes permite levantar a cabeça e olhar para cima.</p>
+                <div class="image-container">
+                    <img src="Figuras/Tubarão Branco.jpg" alt="Tubarão Branco">
+                </div>
+            </section>
+            <section>
+                <h2>Golfinho</h2>
+                <p><strong>Nome Científico:</strong> <em>Delphinidae</em></p>
+                <p><strong>Descrição:</strong> Golfinhos são conhecidos por sua inteligência e comportamento social. Eles vivem em grupos chamados de vagens e são famosos por suas acrobacias e habilidades de salto.</p>
+                <p><strong>Habitat:</strong> Oceanos e mares de todo o mundo.</p>
+                <p><strong>Dieta:</strong> Peixes e lulas.</p>
+                <p><strong>Curiosidade:</strong> Golfinhos têm uma capacidade impressionante de se comunicar entre si usando uma série de cliques e assobios.</p>
+                <div class="image-container">
+                    <img src="Figuras/Golfinho.jpg" alt="Golfinho">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Oceano Encantado. Todos os direitos reservados.</p>
+            <p class="footer-info">Contato: info@oceanoencantado.com</p>
+            <p class="footer-info">Siga-nos nas redes sociais: 
+                <a href="https://facebook.com/oceanoencantado" target="_blank" style="color: white;">Facebook</a> | 
+                <a href="https://twitter.com/oceanoencantado" target="_blank" style="color: white;">Twitter</a> | 
+                <a href="https://instagram.com/oceanoencantado" target="_blank" style="color: white;">Instagram</a>
+            </p>
+        </footer>
+    </center>
+</body>
+</html>
